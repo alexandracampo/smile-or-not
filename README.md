@@ -1,4 +1,4 @@
-# Smile-or-not
+# Smile or not
 ***Smile or not*** is a game:  
 We start the game with yellow background color and smile face.  
 Then, if we push *update* button:
