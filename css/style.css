@@ -1,0 +1,51 @@
+.yellow-body {
+    background-color: #ffcc00;
+}
+
+.orange-body {
+    background-color: #ff9900;
+}
+
+.result-face {
+    display: flex;
+    justify-content: center;
+    padding-top: 20rem;
+    font-size: 10rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2rem;
+}
+
+.box-faces {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 4rem;
+    height: 1.5rem;
+
+}
+
+.button {
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+
+    font-size: medium;
+    color: white;
+    background-color: #0087dd;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(221, 120, 116);
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
