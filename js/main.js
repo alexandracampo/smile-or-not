@@ -23,6 +23,7 @@ const bodyElement = document.querySelector('.js-body');
 
 
 function changeStatusAndBackground(event) {
+    event.preventDefault();
     const selectedStatus = selectElement.value;
     resultFaceH2.innerHTML = selectedStatus;
     const randomNumber = getRandomIntInclusive(1, 100);
